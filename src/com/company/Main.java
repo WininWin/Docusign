@@ -83,7 +83,7 @@ public class Main {
                         return "fail";
                     }
                 case 7:
-                   if((this.temp.equals("HOT") && this.commands.size()==HOT_CLOTHES_COUNT) || (this.temp.equals("COLD") && this.commands.size()==COLD_CLOTHES_COUNT)){
+                   if((this.commands.size()==HOT_CLOTHES_COUNT) || (this.temp.equals("COLD") && this.commands.size()==COLD_CLOTHES_COUNT)){
                        System.out.print("leaving house");
                        return "leaving house";
                    }
